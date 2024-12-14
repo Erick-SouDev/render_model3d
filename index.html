@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three.js OBJ Loader</title>
+
+  <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1.8.3/dist/es-module-shims.min.js"></script>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.166.1/build/three.module.min.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.166.1/examples/jsm/"
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: white;
+      margin: 0;
+    }
+
+    canvas {
+      display: block;
+      background-color: white;
+    }
+
+    h1 {
+      background-color: rgb(8, 2, 61);
+      margin: auto;
+      text-align: center;
+      color: aliceblue;
+    }
+  </style>
+
+<body>
+
+  <h1>Modelo 3D </h1>
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
